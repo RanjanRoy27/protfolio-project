@@ -1,6 +1,6 @@
 # Arghya Roy Portfolio
 
-Static single-page portfolio site for Arghya Ranjan Roy, an AI automation engineer focused on workflow automation, RAG systems, and AI integration audits.
+ Arghya Ranjan Roy, an AI automation engineer focused on workflow automation, RAG systems, and AI integration audits.
 
 ## Stack
 
@@ -56,6 +56,4 @@ After pushing to GitHub:
 3. Set `Source` to `GitHub Actions`.
 4. Push to `main` to trigger deployment.
 
-## Notes
 
-The Calendly booking link is currently represented by a placeholder. Until the real link is added, the site uses `mailto:arghyaroy1999@gmail.com` as the primary fallback contact path.
