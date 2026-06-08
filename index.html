@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arghya Roy - AI Automation Engineer</title>
+  <meta name="description" content="I build AI automation systems for businesses. Workflow automation, RAG pipelines, AI agents. Based in Bangladesh, working globally.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #1a1a18;
+      --bg-secondary: #222220;
+      --bg-tertiary: #2a2a27;
+      --text-primary: #f0ede6;
+      --text-secondary: #b8b4aa;
+      --text-muted: #7a7670;
+      --accent-sage: #7a9e7e;
+      --accent-amber: #c9933a;
+      --accent-sage-dim: #4a6e4e;
+      --border: #2e2e2b;
+      --shadow: rgba(0, 0, 0, 0.4);
+      --max-width: 1100px;
+      --nav-height: 72px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at 80% 8%, rgba(122, 158, 126, 0.16), transparent 34rem),
+        linear-gradient(135deg, rgba(201, 147, 58, 0.04), transparent 30rem),
+        var(--bg-primary);
+      color: var(--text-primary);
+      font-family: "DM Sans", sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.08;
+      background-image:
+        linear-gradient(rgba(240, 237, 230, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(240, 237, 230, 0.08) 1px, transparent 1px);
+      background-size: 52px 52px;
+      mask-image: linear-gradient(to bottom, black, transparent 75%);
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(100% - 40px, var(--max-width));
+      margin: 0 auto;
+    }
+
+    .site-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 20;
+      border-bottom: 1px solid transparent;
+      transition: background 200ms ease, border-color 200ms ease, backdrop-filter 200ms ease;
+    }
+
+    .site-header.scrolled {
+      background: rgba(34, 34, 32, 0.86);
+      border-color: var(--border);
+      backdrop-filter: blur(14px);
+    }
+
+    .nav {
+      min-height: var(--nav-height);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      font-family: "Fraunces", serif;
+      font-weight: 300;
+      font-size: 1.25rem;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+    }
+
+    .nav-links a {
+      transition: color 200ms ease;
+    }
+
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .nav-toggle {
+      display: none;
+      width: 42px;
+      height: 42px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-primary);
+      cursor: pointer;
+    }
+
+    .nav-toggle span,
+    .nav-toggle::before,
+    .nav-toggle::after {
+      content: "";
+      display: block;
+      width: 18px;
+      height: 2px;
+      margin: 4px auto;
+      background: currentColor;
+      transition: transform 200ms ease, opacity 200ms ease;
+    }
+
+    .nav-toggle.open span {
+      opacity: 0;
+    }
+
+    .nav-toggle.open::before {
+      transform: translateY(6px) rotate(45deg);
+    }
+
+    .nav-toggle.open::after {
+      transform: translateY(-6px) rotate(-45deg);
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 18px;
+      border: 1px solid var(--accent-sage);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-weight: 500;
+      transition: transform 200ms ease, border-color 200ms ease, background 200ms ease;
+    }
+
+    .button:hover {
+      transform: scale(1.02);
+      border-color: var(--accent-amber);
+    }
+
+    .button.primary {
+      background: var(--accent-sage);
+      color: #11110f;
+    }
+
+    .button.secondary {
+      background: transparent;
+      color: var(--text-primary);
+    }
+
+    section {
+      padding: 96px 0;
+      position: relative;
+    }
+
+    .section-label {
+      margin: 0 0 12px;
+      color: var(--accent-sage);
+      font-size: 0.78rem;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    h3 {
+      margin: 0;
+      font-family: "Fraunces", serif;
+      font-weight: 600;
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      max-width: 790px;
+      font-size: clamp(3rem, 7vw, 5.4rem);
+    }
+
+    h2 {
+      max-width: 760px;
+      font-size: clamp(2.1rem, 4vw, 3.5rem);
+    }
+
+    h3 {
+      font-size: 1.45rem;
+    }
+
+    p {
+      margin: 0;
+      color: var(--text-secondary);
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding-top: var(--nav-height);
+    }
+
+    .hero-content {
+      max-width: 850px;
+      padding-top: 32px;
+    }
+
+    .hero .eyebrow,
+    .hero h1,
+    .hero .subhead,
+    .hero-actions {
+      opacity: 0;
+      transform: translateY(18px);
+      animation: fadeUp 700ms ease forwards;
+    }
+
+    .hero h1 {
+      animation-delay: 120ms;
+    }
+
+    .hero .subhead {
+      animation-delay: 240ms;
+    }
+
+    .hero-actions {
+      animation-delay: 360ms;
+    }
+
+    .hero .subhead {
+      max-width: 620px;
+      margin-top: 24px;
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.25rem, 2vw, 1.55rem);
+      font-style: italic;
+      font-weight: 300;
+      color: var(--text-secondary);
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 36px;
+    }
+
+    .scroll-cue {
+      position: absolute;
+      left: 50%;
+      bottom: 28px;
+      width: 22px;
+      height: 22px;
+      border-right: 1px solid var(--text-muted);
+      border-bottom: 1px solid var(--text-muted);
+      transform: translateX(-50%) rotate(45deg);
+      animation: cue 1.8s ease-in-out infinite;
+    }
+
+    .split,
+    .case-study,
+    .contact-panel {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    .lead {
+      max-width: 680px;
+      margin-top: 20px;
+      font-size: 1.08rem;
+    }
+
+    .grid {
+      display: grid;
+      gap: 24px;
+      margin-top: 34px;
+    }
+
+    .grid.two {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .card {
+      min-width: 0;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-secondary);
+      box-shadow: 0 18px 40px transparent;
+      transition: transform 200ms ease, border-color 200ms ease, box-shadow 200ms ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent-sage-dim);
+      box-shadow: 0 18px 40px var(--shadow);
+    }
+
+    .mini-card {
+      padding: 18px;
+    }
+
+    .mini-card strong {
+      display: block;
+      color: var(--text-primary);
+      font-weight: 500;
+    }
+
+    .mini-card p {
+      margin-top: 5px;
+      font-size: 0.95rem;
+    }
+
+    .service-card {
+      padding: 28px;
+      overflow: hidden;
+    }
+
+    .service-number {
+      display: block;
+      margin-bottom: 24px;
+      color: rgba(201, 147, 58, 0.35);
+      font-family: "Fraunces", serif;
+      font-size: 3.4rem;
+      line-height: 0.9;
+    }
+
+    .tagline {
+      margin-top: 12px;
+      color: var(--accent-sage);
+      font-style: italic;
+      font-weight: 500;
+    }
+
+    .service-card p:not(.tagline) {
+      margin-top: 18px;
+    }
+
+    .stack {
+      margin-top: 20px;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .outcome {
+      margin-top: 24px;
+      color: var(--accent-amber);
+      font-family: "Fraunces", serif;
+      font-style: italic;
+    }
+
+    .case-study {
+      padding: 40px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: linear-gradient(145deg, var(--bg-secondary), rgba(42, 42, 39, 0.72));
+    }
+
+    .case-points {
+      display: grid;
+      gap: 18px;
+    }
+
+    .case-points div {
+      padding-left: 18px;
+      border-left: 2px solid var(--accent-sage-dim);
+    }
+
+    .process-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    .process-step {
+      display: grid;
+      grid-template-columns: 78px 1fr;
+      gap: 20px;
+      align-items: start;
+      padding: 22px 0;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .process-step span {
+      color: var(--accent-amber);
+      font-family: "Fraunces", serif;
+      font-size: 1.4rem;
+    }
+
+    .project-card {
+      display: flex;
+      min-height: 310px;
+      padding: 24px;
+      flex-direction: column;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+    }
+
+    .tags span {
+      padding: 5px 9px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      color: var(--text-secondary);
+      font-size: 0.78rem;
+    }
+
+    .project-card p {
+      margin-top: 14px;
+    }
+
+    .project-card .button {
+      width: fit-content;
+      margin-top: auto;
+    }
+
+    .about-copy p + p {
+      margin-top: 18px;
+    }
+
+    .credentials {
+      display: grid;
+      gap: 14px;
+    }
+
+    .credential {
+      padding: 16px 18px;
+      border-left: 3px solid var(--accent-sage);
+      border-radius: 6px;
+      background: var(--bg-tertiary);
+      color: var(--text-secondary);
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 34px;
+    }
+
+    details {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-secondary);
+    }
+
+    summary {
+      padding: 18px 20px;
+      color: var(--text-primary);
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    details p {
+      padding: 0 20px 20px;
+    }
+
+    .contact-panel {
+      padding: 42px;
+      border: 1px solid var(--accent-sage-dim);
+      border-radius: 8px;
+      background: var(--bg-secondary);
+    }
+
+    .email-link {
+      display: inline-block;
+      margin-top: 20px;
+      color: var(--accent-amber);
+      font-size: 1.1rem;
+      overflow-wrap: anywhere;
+    }
+
+    .calendly-placeholder {
+      min-height: 260px;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      border: 1px dashed var(--accent-sage-dim);
+      border-radius: 8px;
+      background: var(--bg-tertiary);
+      text-align: center;
+    }
+
+    .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 24px;
+    }
+
+    .social-links a {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      transition: border-color 200ms ease, color 200ms ease;
+    }
+
+    .social-links a:hover {
+      border-color: var(--accent-sage);
+      color: var(--text-primary);
+    }
+
+    footer {
+      padding: 28px 0;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.92rem;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(22px);
+      transition: opacity 600ms ease, transform 600ms ease;
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @keyframes fadeUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes cue {
+      0%, 100% {
+        opacity: 0.35;
+        translate: 0 0;
+      }
+      50% {
+        opacity: 0.9;
+        translate: 0 8px;
+      }
+    }
+
+    @media (max-width: 860px) {
+      section {
+        padding: 68px 0;
+      }
+
+      .container {
+        width: min(100% - 28px, var(--max-width));
+      }
+
+      .nav-toggle {
+        display: block;
+      }
+
+      .nav-links {
+        position: absolute;
+        top: var(--nav-height);
+        left: 14px;
+        right: 14px;
+        display: none;
+        padding: 18px;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        background: rgba(34, 34, 32, 0.98);
+        flex-direction: column;
+        align-items: stretch;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links .button {
+        width: 100%;
+      }
+
+      .hero {
+        min-height: 92vh;
+      }
+
+      .split,
+      .case-study,
+      .contact-panel,
+      .grid.two,
+      .grid.three {
+        grid-template-columns: 1fr;
+      }
+
+      .case-study,
+      .contact-panel {
+        padding: 28px;
+      }
+
+      .process-step {
+        grid-template-columns: 54px 1fr;
+      }
+    }
+
+    @media (max-width: 520px) {
+      h1 {
+        font-size: 2.85rem;
+      }
+
+      .button {
+        width: 100%;
+      }
+
+      .hero-actions {
+        width: 100%;
+      }
+
+      .service-card,
+      .project-card {
+        padding: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="#top">Arghya Roy</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#services">Services</a>
+        <a href="#case-study">Case Study</a>
+        <a href="#process">Process</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a class="button secondary" href="#contact">Book a Call</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="section-label eyebrow">AI Automation Engineer</p>
+        <h1>I fix business chaos with custom AI systems.</h1>
+        <p class="subhead">Workflow automation · RAG systems · AI agents built for real business outcomes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#contact">Book Discovery Call</a>
+          <a class="button secondary" href="#case-study">View Case Study</a>
+        </div>
+      </div>
+      <span class="scroll-cue" aria-hidden="true"></span>
+    </section>
+
+    <section id="who-i-help" class="reveal">
+      <div class="container split">
+        <div>
+          <p class="section-label">Who I Help</p>
+          <h2>For businesses buried under repetitive manual work.</h2>
+          <p class="lead">I help accounting firms, bookkeeping practices, recruitment agencies, and operations-heavy SMBs replace fragile manual processes with reliable automation systems.</p>
+        </div>
+        <div class="grid two" aria-label="Common business problems">
+          <div class="card mini-card">
+            <strong>Manual reporting</strong>
+            <p>Reports assembled by hand from spreadsheets, inboxes, and disconnected tools.</p>
+          </div>
+          <div class="card mini-card">
+            <strong>Document processing</strong>
+            <p>Invoices, forms, SOPs, and client files that slow down daily operations.</p>
+          </div>
+          <div class="card mini-card">
+            <strong>Knowledge retrieval</strong>
+            <p>Important answers spread across files, folders, and team memory.</p>
+          </div>
+          <div class="card mini-card">
+            <strong>Administrative workflows</strong>
+            <p>Onboarding, routing, updates, and repetitive tasks that should run themselves.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="reveal">
+      <div class="container">
+        <p class="section-label">What I Build</p>
+        <h2>Three ways I eliminate your manual work.</h2>
+        <div class="grid three">
+          <article class="card service-card">
+            <span class="service-number">01</span>
+            <h3>AI Workflow Automation</h3>
+            <p class="tagline">Stop doing manually what a system can do for you.</p>
+            <p>I map repetitive processes and replace them with automated n8n pipelines: data entry, report generation, client onboarding, and document routing.</p>
+            <p class="stack">Stack: n8n · Python · REST APIs · AI agents</p>
+            <p class="outcome">What takes hours runs in minutes.</p>
+          </article>
+          <article class="card service-card">
+            <span class="service-number">02</span>
+            <h3>RAG Knowledge Systems</h3>
+            <p class="tagline">Your documents, turned into an AI that works for you.</p>
+            <p>I build RAG systems so your team can query documents, SOPs, and client data in plain English without digging through files.</p>
+            <p class="stack">Stack: LangChain · FAISS/Chroma · Claude/OpenAI · FastAPI</p>
+            <p class="outcome">Ask your data instead of searching for it.</p>
+          </article>
+          <article class="card service-card">
+            <span class="service-number">03</span>
+            <h3>AI Integration Audit</h3>
+            <p class="tagline">Know exactly what to automate.</p>
+            <p>I audit workflows, identify high-leverage automation gaps, and deliver a prioritized build plan with ROI-focused recommendations.</p>
+            <p class="stack">Stack: Process mapping · n8n · LLM tooling</p>
+            <p class="outcome">A clear roadmap in days, not weeks.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="case-study" class="reveal">
+      <div class="container">
+        <p class="section-label">Featured Case Study</p>
+        <div class="case-study">
+          <div>
+            <h2>Abroad Chain Automation</h2>
+            <p class="lead">A 22-node n8n automation system for a study-abroad consultancy, built to reduce manual effort in daily content operations.</p>
+            <div class="hero-actions">
+              <a class="button primary" href="https://github.com/RanjanRoy27/aboard_chain_n8n_casestudies" target="_blank" rel="noopener">View GitHub</a>
+            </div>
+          </div>
+          <div class="case-points">
+            <div>
+              <h3>Problem</h3>
+              <p>Content generation and publishing required continuous manual effort across multiple steps.</p>
+            </div>
+            <div>
+              <h3>Solution</h3>
+              <p>Designed an end-to-end n8n workflow for AI content generation, scheduling, and distribution.</p>
+            </div>
+            <div>
+              <h3>Result</h3>
+              <p>A repeatable content pipeline running with minimal human input and clearer operational control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="reveal">
+      <div class="container">
+        <p class="section-label">Process</p>
+        <h2>A simple delivery path from messy workflow to working system.</h2>
+        <div class="process-list">
+          <div class="process-step">
+            <span>01</span>
+            <div>
+              <h3>Discovery</h3>
+              <p>We identify the workflow that costs the most time, money, or attention.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <span>02</span>
+            <div>
+              <h3>Audit</h3>
+              <p>I map the current process and score automation opportunities by impact and effort.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <span>03</span>
+            <div>
+              <h3>Design</h3>
+              <p>You get a clear workflow architecture before anything is built.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <span>04</span>
+            <div>
+              <h3>Build</h3>
+              <p>I develop, test, and document the system so it fits your actual tools.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <span>05</span>
+            <div>
+              <h3>Deploy & Support</h3>
+              <p>The system launches with handover guidance, monitoring, and practical iteration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="reveal">
+      <div class="container">
+        <p class="section-label">Projects</p>
+        <h2>Systems I have built. Code on GitHub.</h2>
+        <div class="grid three">
+          <article class="card project-card">
+            <div class="tags">
+              <span>n8n</span>
+              <span>Automation</span>
+              <span>Case Study</span>
+            </div>
+            <h3>AI Content Pipeline - Abroad Chain</h3>
+            <p>22-node n8n automation for daily AI content generation, scheduling, and distribution.</p>
+            <a class="button secondary" href="https://github.com/RanjanRoy27/aboard_chain_n8n_casestudies" target="_blank" rel="noopener">GitHub</a>
+          </article>
+          <article class="card project-card">
+            <div class="tags">
+              <span>RAG</span>
+              <span>LangChain</span>
+              <span>FastAPI</span>
+            </div>
+            <h3>Modular Hybrid RAG Pipeline</h3>
+            <p>Production-grade domain Q&A system with vector search, embeddings, and REST endpoints.</p>
+            <a class="button secondary" href="https://github.com/RanjanRoy27/-Modular-Hybrid-RAG--Retrieval-Augmented-Generation-" target="_blank" rel="noopener">GitHub</a>
+          </article>
+          <article class="card project-card">
+            <div class="tags">
+              <span>BERT</span>
+              <span>NLP</span>
+              <span>ML Research</span>
+            </div>
+            <h3>Generative Travel Recommendation System</h3>
+            <p>BERT-based sequential recommendation engine built at NIT Calicut with automated POI extraction.</p>
+            <a class="button secondary" href="https://github.com/RanjanRoy27/projectGenerativeRec" target="_blank" rel="noopener">GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="reveal">
+      <div class="container split">
+        <div class="about-copy">
+          <p class="section-label">About</p>
+          <h2>Sharp on the tech. Focused on your outcome.</h2>
+          <p class="lead">I am Arghya, a CS engineer from NIT Calicut with a background in ML, NLP, and production AI systems.</p>
+          <p>I build automation pipelines and AI systems that replace manual work with workflows you can see, measure, and rely on. Based in Bangladesh, working globally.</p>
+        </div>
+        <div class="credentials" aria-label="Credentials and trust signals">
+          <div class="credential">B.Tech CSE - NIT Calicut, India</div>
+          <div class="credential">Anthropic Certified - Claude 101, Claude Code in Action, AI Fluency</div>
+          <div class="credential">SII Merit Scholar - Government of India</div>
+          <div class="credential">President's Scout Award - Bangladesh</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="reveal">
+      <div class="container">
+        <p class="section-label">FAQ</p>
+        <h2>Plain answers before we talk.</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Do I need AI?</summary>
+            <p>Not always. Sometimes automation alone solves the problem. The audit starts by finding the simplest reliable fix.</p>
+          </details>
+          <details>
+            <summary>Can you work with small businesses?</summary>
+            <p>Yes. The best fit is an owner-operated or ops-heavy business with repetitive workflows that already cost time every week.</p>
+          </details>
+          <details>
+            <summary>Do you build custom solutions?</summary>
+            <p>Yes. I design around your tools, documents, team workflow, and business outcome instead of forcing a generic template.</p>
+          </details>
+          <details>
+            <summary>How long does implementation take?</summary>
+            <p>It depends on scope and complexity. Small automations can move quickly; larger RAG or multi-tool systems need more design and testing.</p>
+          </details>
+          <details>
+            <summary>What happens during a discovery call?</summary>
+            <p>We review the workflow, estimate the cost of the bottleneck, and decide whether automation is worth pursuing.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal">
+      <div class="container contact-panel">
+        <div>
+          <p class="section-label">Book a Call</p>
+          <h2>Ready to stop doing this manually?</h2>
+          <p class="lead">20 minutes. No pitch. Just a conversation about what is slowing you down and whether a system can fix it.</p>
+          <a class="email-link" href="mailto:arghyaroy1999@gmail.com">arghyaroy1999@gmail.com</a>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/RanjanRoy27" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/arghya-ranjan-roy-309bb5266" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://x.com/RoyArghya27" target="_blank" rel="noopener">X/Twitter</a>
+          </div>
+        </div>
+        <div class="calendly-placeholder">
+          <div>
+            <p class="section-label">Calendly</p>
+            <h3>Booking link coming soon.</h3>
+            <p>Until then, email me with the workflow you want to automate and I will reply with next steps.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <span>Arghya Ranjan Roy - AI Automation Engineer</span>
+      <span>Built with intention. © 2026 Arghya Ranjan Roy.</span>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById("site-header");
+    const navToggle = document.getElementById("nav-toggle");
+    const navLinks = document.getElementById("nav-links");
+
+    const updateHeader = () => {
+      header.classList.toggle("scrolled", window.scrollY > 24);
+    };
+
+    navToggle.addEventListener("click", () => {
+      const isOpen = navLinks.classList.toggle("open");
+      navToggle.classList.toggle("open", isOpen);
+      navToggle.setAttribute("aria-expanded", String(isOpen));
+    });
+
+    navLinks.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navLinks.classList.remove("open");
+        navToggle.classList.remove("open");
+        navToggle.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    window.addEventListener("scroll", updateHeader, { passive: true });
+    updateHeader();
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.16 });
+
+    document.querySelectorAll(".reveal").forEach((section) => {
+      revealObserver.observe(section);
+    });
+  </script>
+</body>
+</html>
