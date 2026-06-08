@@ -1,0 +1,713 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "hello@hywiz.com" [ref=e7] [cursor=pointer]:
+          - /url: mailto:hello@hywiz.com
+          - generic [ref=e8]:
+            - img [ref=e10]
+            - generic [ref=e12]: hello@hywiz.com
+        - link "+92 314 3110259" [ref=e14] [cursor=pointer]:
+          - /url: tel:+923143110259
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - generic [ref=e19]: +92 314 3110259
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Facebook-f" [ref=e24] [cursor=pointer]:
+            - /url: https://www.facebook.com/HywizTechnologies/
+            - generic [ref=e25]: Facebook-f
+            - img [ref=e26]
+        - listitem [ref=e28]:
+          - link "Linkedin-in" [ref=e29] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/hywiz-technologies/
+            - generic [ref=e30]: Linkedin-in
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "Instagram" [ref=e34] [cursor=pointer]:
+            - /url: https://www.instagram.com/hywiztechnologies/
+            - generic [ref=e35]: Instagram
+            - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "X-twitter" [ref=e39] [cursor=pointer]:
+            - /url: https://x.com/hywiztechnology
+            - generic [ref=e40]: X-twitter
+            - img [ref=e41]
+        - listitem [ref=e43]:
+          - link "Pinterest-p" [ref=e44] [cursor=pointer]:
+            - /url: https://www.pinterest.com/hywiztechnologies/
+            - generic [ref=e45]: Pinterest-p
+            - img [ref=e46]
+        - listitem [ref=e48]:
+          - link "Youtube" [ref=e49] [cursor=pointer]:
+            - /url: https://youtube.com/@hywiztechnologies
+            - generic [ref=e50]: Youtube
+            - img [ref=e51]
+        - listitem [ref=e53]:
+          - link "Behance" [ref=e54] [cursor=pointer]:
+            - /url: https://www.behance.net/hywiz
+            - generic [ref=e55]: Behance
+            - img [ref=e56]
+    - generic [ref=e60]:
+      - link "Hywiz-Technologies-Logo" [ref=e62] [cursor=pointer]:
+        - /url: https://hywiz.com
+        - img "Hywiz-Technologies-Logo" [ref=e63]
+      - navigation "Menu" [ref=e65]:
+        - button "Menu Toggle" [ref=e66]:
+          - img [ref=e68]
+          - img [ref=e71]
+  - main [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e78]:
+        - paragraph [ref=e80]: Say Hi to Hywiz
+        - heading "AI Automation, Marketing & Software Development Company Specializing In" [level=1] [ref=e82]
+        - heading "Artificial Intelligence Web Development App Development AI Agents Google Ads Meta Ads UI/UX Design Scaling Businesses" [level=2] [ref=e84]:
+          - generic [ref=e85]:
+            - generic [ref=e86]: Artificial Intelligence
+            - generic [ref=e87]: Web Development
+            - generic [ref=e88]: App Development
+            - generic [ref=e89]: AI Agents
+            - generic [ref=e90]: Google Ads
+            - generic [ref=e91]: Meta Ads
+            - generic [ref=e92]: UI/UX Design
+            - generic [ref=e93]: Scaling Businesses
+        - paragraph [ref=e95]: Hywiz Technologies is a leading AI-powered software solutions company. Talk with us to develop a website, application, or marketing strategy —built by industry-leading designers, developers, and AI engineers.
+        - generic [ref=e96]:
+          - link "GET Started" [ref=e98] [cursor=pointer]:
+            - /url: "#services-section"
+            - generic [ref=e99]:
+              - img [ref=e101]
+              - generic [ref=e103]: GET Started
+          - link "Contact Us" [ref=e105] [cursor=pointer]:
+            - /url: https://hywiz.com/contact-us/
+            - generic [ref=e106]:
+              - img [ref=e108]
+              - generic [ref=e110]: Contact Us
+      - generic [ref=e117]:
+        - region "Image Carousel" [ref=e119]:
+          - generic [ref=e120]:
+            - group [ref=e121]:
+              - figure [ref=e122]:
+                - img [ref=e123]
+            - group [ref=e124]:
+              - figure [ref=e125]:
+                - img [ref=e126]
+            - group [ref=e127]:
+              - figure [ref=e128]:
+                - img [ref=e129]
+            - group [ref=e130]:
+              - figure [ref=e131]:
+                - img [ref=e132]
+            - group "1 / 13" [ref=e133]:
+              - figure [ref=e134]:
+                - img "Clients_Logos_Slider_1" [ref=e135]
+            - group "2 / 13" [ref=e136]:
+              - figure [ref=e137]:
+                - img "Clients_Logos_Slider_2" [ref=e138]
+            - group "3 / 13" [ref=e139]:
+              - figure [ref=e140]:
+                - img "Clients_Logos_Slider_3" [ref=e141]
+            - group "4 / 13" [ref=e142]:
+              - figure [ref=e143]:
+                - img "Clients_Logos_Slider_4" [ref=e144]
+            - group [ref=e145]:
+              - figure [ref=e146]:
+                - img [ref=e147]
+            - group [ref=e148]:
+              - figure [ref=e149]:
+                - img [ref=e150]
+            - group [ref=e151]:
+              - figure [ref=e152]:
+                - img [ref=e153]
+            - group [ref=e154]:
+              - figure [ref=e155]:
+                - img [ref=e156]
+            - group [ref=e157]:
+              - figure [ref=e158]:
+                - img [ref=e159]
+            - group [ref=e160]:
+              - figure [ref=e161]:
+                - img [ref=e162]
+            - group [ref=e163]:
+              - figure [ref=e164]:
+                - img [ref=e165]
+            - group [ref=e166]:
+              - figure [ref=e167]:
+                - img [ref=e168]
+            - group [ref=e169]:
+              - figure [ref=e170]:
+                - img [ref=e171]
+            - group [ref=e172]:
+              - figure [ref=e173]:
+                - img [ref=e174]
+            - group [ref=e175]:
+              - figure [ref=e176]:
+                - img [ref=e177]
+            - group [ref=e178]:
+              - figure [ref=e179]:
+                - img [ref=e180]
+            - group [ref=e181]:
+              - figure [ref=e182]:
+                - img [ref=e183]
+        - region "Image Carousel" [ref=e185]:
+          - generic [ref=e186]:
+            - group [ref=e187]:
+              - figure [ref=e188]:
+                - img [ref=e189]
+            - group [ref=e190]:
+              - figure [ref=e191]:
+                - img [ref=e192]
+            - group [ref=e193]:
+              - figure [ref=e194]:
+                - img [ref=e195]
+            - group "1 / 12" [ref=e196]:
+              - figure [ref=e197]:
+                - img "Clients_Logos_Slider_14" [ref=e198]
+            - group "2 / 12" [ref=e199]:
+              - figure [ref=e200]:
+                - img "Clients_Logos_Slider_15" [ref=e201]
+            - group "3 / 12" [ref=e202]:
+              - figure [ref=e203]:
+                - img "Clients_Logos_Slider_16" [ref=e204]
+            - group [ref=e205]:
+              - figure [ref=e206]:
+                - img [ref=e207]
+            - group [ref=e208]:
+              - figure [ref=e209]:
+                - img [ref=e210]
+            - group [ref=e211]:
+              - figure [ref=e212]:
+                - img [ref=e213]
+            - group [ref=e214]:
+              - figure [ref=e215]:
+                - img [ref=e216]
+            - group [ref=e217]:
+              - figure [ref=e218]:
+                - img [ref=e219]
+            - group [ref=e220]:
+              - figure [ref=e221]:
+                - img [ref=e222]
+            - group [ref=e223]:
+              - figure [ref=e224]:
+                - img [ref=e225]
+            - group [ref=e226]:
+              - figure [ref=e227]:
+                - img [ref=e228]
+            - group [ref=e229]:
+              - figure [ref=e230]:
+                - img [ref=e231]
+            - group [ref=e232]:
+              - figure [ref=e233]:
+                - img [ref=e234]
+            - group [ref=e235]:
+              - figure [ref=e236]:
+                - img [ref=e237]
+            - group [ref=e238]:
+              - figure [ref=e239]:
+                - img [ref=e240]
+      - generic [ref=e243]:
+        - paragraph [ref=e245]: Powering Global Solutions
+        - heading "Accelerate Business Growth with Hywiz Technologies✨" [level=2] [ref=e247]
+      - generic [ref=e259]:
+        - link "Google Partner Badge Hywiz" [ref=e262] [cursor=pointer]:
+          - /url: https://www.google.com/partners/agency?id=5844453902
+          - img "Google-Partner-Badge-Hywiz-Technologies" [ref=e263]
+        - heading "Hywiz Technologies Is Now Officially Google Partner ..." [level=2] [ref=e266]:
+          - text: Hywiz Technologies Is Now Officially
+          - generic [ref=e267]: Google Partner
+          - text: ...
+      - generic [ref=e269]:
+        - generic [ref=e270]:
+          - paragraph [ref=e272]: Top-Notch Services We Offer
+          - heading "Your One-Stop Destination for Business Excellence" [level=2] [ref=e274]
+          - paragraph [ref=e276]: Hywiz offers industry-leading AI-Powered solutions designed to drive exponential business growth, boost online visibility, maximize ROI, and accelerate success across digital channels with expert development, marketing, and IT services.
+        - generic [ref=e280]:
+          - generic [ref=e281]:
+            - img "AI-Automation-Icon-H" [ref=e283]
+            - heading "AI Automation" [level=3] [ref=e285]
+            - paragraph [ref=e287]: Deploy intelligent, task-driven AI agents that automate workflows, enhance decision-making, and boost efficiency across customer service and digital ecosystems.
+            - link "GET Started" [ref=e289] [cursor=pointer]:
+              - /url: https://hywiz.com/services/ai-automation/
+              - generic [ref=e291]: GET Started
+            - text: •••
+          - generic [ref=e292]:
+            - img "App_Development_Services-Icon-H" [ref=e294]
+            - heading "Software Development" [level=3] [ref=e296]
+            - paragraph [ref=e298]: Build scalable, feature-rich software solutions designed to optimize performance, engage users, and deliver measurable business growth.
+            - link "GET Started" [ref=e300] [cursor=pointer]:
+              - /url: https://hywiz.com/services/software-development/
+              - generic [ref=e302]: GET Started
+            - text: •••
+          - generic [ref=e303]:
+            - img "Web_Development_Services-Icon-H" [ref=e305]
+            - heading "Website Development" [level=3] [ref=e307]
+            - paragraph [ref=e309]: Develop high-performance, user-centric websites that skyrocket your brand, enhance UX, & drive conversions with our expert web development solutions.
+            - link "GET Started" [ref=e311] [cursor=pointer]:
+              - /url: https://hywiz.com/services/web-development/
+              - generic [ref=e313]: GET Started
+            - text: •••
+          - generic [ref=e314]:
+            - img "Website-Maintenance-Services-Icon-H" [ref=e316]
+            - heading "Website Maintenance" [level=3] [ref=e318]
+            - paragraph [ref=e320]: Keep your website updated, fast, secure, and optimized for performance with our proactive monitoring, timely updates and maintenance services.
+            - link "GET Started" [ref=e322] [cursor=pointer]:
+              - /url: https://hywiz.com/services/website-maintenance/
+              - generic [ref=e324]: GET Started
+            - text: •••
+          - generic [ref=e325]:
+            - img "Domain-Hosting-Services-Icon-H" [ref=e327]
+            - heading "Domain & Hosting" [level=3] [ref=e329]
+            - paragraph [ref=e331]: Hywiz provides premium, secure, and reliable domain & hosting solutions for fast, scalable, and high-performance websites with 99.9% uptime.
+            - link "GET Started" [ref=e333] [cursor=pointer]:
+              - /url: https://hywiz.com/services/domain-hosting/
+              - generic [ref=e335]: GET Started
+            - text: •••
+          - generic [ref=e336]:
+            - img "Google-Ads-Services-Icon-H" [ref=e338]
+            - heading "Google Ads" [level=3] [ref=e340]
+            - paragraph [ref=e342]: Maximize visibility, drive targeted traffic, and boost conversions with our optimized Google Ads services to generate leads and accelerate revenue growth.
+            - link "GET Started" [ref=e344] [cursor=pointer]:
+              - /url: https://hywiz.com/services/google-ads/
+              - generic [ref=e346]: GET Started
+            - text: •••
+          - generic [ref=e347]:
+            - img "Meta-Ads-Services-Icon-H" [ref=e349]
+            - heading "Meta Ads" [level=3] [ref=e351]
+            - paragraph [ref=e353]: Drive engagement, build brand awareness, reach your ideal audience, generate leads, and boost conversions with our high-ROI Meta Ads solutions.
+            - link "GET Started" [ref=e355] [cursor=pointer]:
+              - /url: https://hywiz.com/services/meta-ads/
+              - generic [ref=e357]: GET Started
+            - text: •••
+          - generic [ref=e358]:
+            - img "Tiktok-Ads-Service-Icon-H" [ref=e360]
+            - heading "Tiktok Ads" [level=3] [ref=e362]
+            - paragraph [ref=e364]: Capture millions of views with scroll-stopping TikTok Ads. Reach your audience effectively with data-driven targeting and proven performance.
+            - link "GET Started" [ref=e366] [cursor=pointer]:
+              - /url: https://hywiz.com/services/tiktok-ads/
+              - generic [ref=e368]: GET Started
+            - text: •••
+          - generic [ref=e369]:
+            - img "Search-Engine-Optimization-Icon-Services" [ref=e371]
+            - heading "SEO" [level=3] [ref=e373]
+            - paragraph [ref=e375]: Boost search rankings, drive organic traffic, dominate your niche, maximize conversions and grow your business with our expert SEO strategies.
+            - link "GET Started" [ref=e377] [cursor=pointer]:
+              - /url: https://hywiz.com/services/search-engine-optimization/
+              - generic [ref=e379]: GET Started
+            - text: •••
+          - generic [ref=e380]:
+            - img "UI-UX-Design-Services-H" [ref=e382]
+            - heading "UI/UX Design" [level=3] [ref=e384]
+            - paragraph [ref=e386]: Enhance user experience, boost engagement, drive conversions, and captivate users with our user-centric, & visually stunning UI/UX design services.
+            - link "GET Started" [ref=e388] [cursor=pointer]:
+              - /url: https://hywiz.com/services/ui-ux-design/
+              - generic [ref=e390]: GET Started
+            - text: •••
+          - generic [ref=e391]:
+            - img "Graphic-Design-Services-H" [ref=e393]
+            - heading "Graphic Design" [level=3] [ref=e395]
+            - paragraph [ref=e397]: Create brand-defining visuals that captures attention, engage customers, skyrocket your brand, leave a lasting impression, and drive action.
+            - link "GET Started" [ref=e399] [cursor=pointer]:
+              - /url: https://hywiz.com/services/graphic-design/
+              - generic [ref=e401]: GET Started
+            - text: •••
+          - generic [ref=e402]:
+            - img "Video-Animation-Services-H" [ref=e404]
+            - heading "Video Animation" [level=3] [ref=e406]
+            - paragraph [ref=e408]: Bring stories to life with stunning video animations that boost engagement, enhance brand storytelling, captivate audiences, & drive conversions.
+            - link "GET Started" [ref=e410] [cursor=pointer]:
+              - /url: https://hywiz.com/services/video-animation/
+              - generic [ref=e412]: GET Started
+            - text: •••
+        - paragraph [ref=e414]: Struggling to Scale? Your Success Starts Here!
+        - paragraph [ref=e416]: Don’t Just Compete — Dominate! Hywiz helps You Dominate Your Industry.
+        - generic [ref=e417]:
+          - link "Get Started Now" [ref=e419] [cursor=pointer]:
+            - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU0MzAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+            - generic [ref=e420]:
+              - img [ref=e422]
+              - generic [ref=e424]: Get Started Now
+          - link "See More Services" [ref=e426] [cursor=pointer]:
+            - /url: https://hywiz.com/services/
+            - generic [ref=e427]:
+              - img [ref=e429]
+              - generic [ref=e431]: See More Services
+      - generic [ref=e433]:
+        - generic [ref=e434]:
+          - img [ref=e438]
+          - img [ref=e443]
+          - img [ref=e448]
+          - img [ref=e453]
+          - img [ref=e458]
+        - generic [ref=e460]:
+          - paragraph [ref=e462]: Proof of Excellence
+          - heading "What Clients Say About Working with Hywiz" [level=2] [ref=e464]
+          - paragraph [ref=e466]: From innovative startups to global enterprises, our clients share honest insights about collaborating with Hywiz Technologies. Their experiences highlight our focus on delivering high-value solutions, building lasting relationships, and accelerating business growth.
+        - generic [ref=e470]:
+          - button "Play Video about Hywiz-Client-Testimonial-1" [ref=e474] [cursor=pointer]:
+            - img [ref=e475]
+          - button "Play Video about Hywiz-Client-Testimonial-2" [ref=e480] [cursor=pointer]:
+            - img [ref=e481]
+          - button "Play Video about Hywiz-Client-Testimonial-3" [ref=e486] [cursor=pointer]:
+            - img [ref=e487]
+          - button "Play Video about Client-Testimonials-Reviews-1" [ref=e492] [cursor=pointer]:
+            - img [ref=e493]
+          - button "Play Video about Client-Testimonials-Reviews-3" [ref=e498] [cursor=pointer]:
+            - img [ref=e499]
+          - button "Play Video about Client-Testimonials-Reviews-4" [ref=e504] [cursor=pointer]:
+            - img [ref=e505]
+          - button "Play Video about Client-Testimonials-Reviews-6" [ref=e510] [cursor=pointer]:
+            - img [ref=e511]
+          - button "Play Video about Client-Testimonials-Reviews-7" [ref=e516] [cursor=pointer]:
+            - img [ref=e517]
+          - button "Play Video about Client-Testimonials-Reviews-8" [ref=e522] [cursor=pointer]:
+            - img [ref=e523]
+        - paragraph [ref=e526]: "Ranked #1 for Innovation & Excellence—Trusted by Leading Brands Worldwide."
+        - paragraph [ref=e528]: Join the League of Industry Leaders—Partner with Hywiz and Achieve Extraordinary Results.
+      - generic [ref=e534]:
+        - region "Carousel Slider" [ref=e536]:
+          - generic [ref=e537]:
+            - group [ref=e538]:
+              - paragraph [ref=e541]: AI Automation Solutions
+            - group [ref=e542]:
+              - paragraph [ref=e545]: Data-Driven Digital Marketing
+            - group [ref=e546]:
+              - paragraph [ref=e549]: "#1 Business Growth Partner"
+            - group "8 / 8" [ref=e550]:
+              - paragraph [ref=e553]: Elite Branding & Marketing Experts
+            - group "1 / 8" [ref=e554]:
+              - paragraph [ref=e557]: "Ranked #1 Marketing Team"
+            - group "2 / 8" [ref=e558]:
+              - paragraph [ref=e561]: Certified Growth Experts
+            - group [ref=e562]:
+              - paragraph [ref=e565]: "#1 Custom Software Solutions"
+            - group [ref=e566]:
+              - paragraph [ref=e569]: Global Leaders in Innovation
+            - group [ref=e570]:
+              - paragraph [ref=e573]: AI Automation Solutions
+            - group [ref=e574]:
+              - paragraph [ref=e577]: Data-Driven Digital Marketing
+            - group [ref=e578]:
+              - paragraph [ref=e581]: "#1 Business Growth Partner"
+            - group [ref=e582]:
+              - paragraph [ref=e585]: Elite Branding & Marketing Experts
+            - group [ref=e586]:
+              - paragraph [ref=e589]: "Ranked #1 Marketing Team"
+            - group [ref=e590]:
+              - paragraph [ref=e593]: Certified Growth Experts
+            - group [ref=e594]:
+              - paragraph [ref=e597]: "#1 Custom Software Solutions"
+            - group [ref=e598]:
+              - paragraph [ref=e601]: Global Leaders in Innovation
+        - region "Carousel Slider" [ref=e603]:
+          - generic [ref=e604]:
+            - group [ref=e605]:
+              - paragraph [ref=e608]: Trusted by Global Brands
+            - group [ref=e609]:
+              - paragraph [ref=e612]: Leading Software Company
+            - group [ref=e613]:
+              - paragraph [ref=e616]: AI Integration Services
+            - group "8 / 8" [ref=e617]:
+              - paragraph [ref=e620]: Top-Rated Marketing Company
+            - group "1 / 8" [ref=e621]:
+              - paragraph [ref=e624]: High-Performance Solutions
+            - group [ref=e625]:
+              - paragraph [ref=e628]: Conversion Optimization
+            - group [ref=e629]:
+              - paragraph [ref=e632]: AI-Powered Workflows
+            - group [ref=e633]:
+              - paragraph [ref=e636]: Maximum ROI & ROAS
+            - group [ref=e637]:
+              - paragraph [ref=e640]: Trusted by Global Brands
+            - group [ref=e641]:
+              - paragraph [ref=e644]: Leading Software Company
+            - group [ref=e645]:
+              - paragraph [ref=e648]: AI Integration Services
+            - group [ref=e649]:
+              - paragraph [ref=e652]: Top-Rated Marketing Company
+            - group [ref=e653]:
+              - paragraph [ref=e656]: High-Performance Solutions
+            - group [ref=e657]:
+              - paragraph [ref=e660]: Conversion Optimization
+            - group [ref=e661]:
+              - paragraph [ref=e664]: AI-Powered Workflows
+            - group [ref=e665]:
+              - paragraph [ref=e668]: Maximum ROI & ROAS
+      - generic [ref=e675]:
+        - generic [ref=e676]:
+          - paragraph [ref=e678]: Top-Notch Solutions
+          - heading "Custom, Scalable & Optimized Development Solutions" [level=2] [ref=e680]
+          - paragraph [ref=e682]: Empower your business with custom-built AI-Driven development solutions that prioritize performance, scalability, innovation, and security. We create seamless digital experiences—responsive websites, robust web applications, mobile apps, AI agents and custom software solutions—that boost operational efficiency, enhance user experience, and accelerate growth.
+          - generic [ref=e683]:
+            - generic [ref=e684]:
+              - generic [ref=e685]:
+                - img [ref=e689]
+                - heading "Proven Track Record" [level=3] [ref=e692]
+              - paragraph [ref=e694]: Our dedicated team has strong track record for about 10+ years with 100s of successful projects.
+            - generic [ref=e695]:
+              - generic [ref=e696]:
+                - img [ref=e700]
+                - heading "AI-Powered Solutions" [level=3] [ref=e703]
+              - paragraph [ref=e705]: Bringing smart, scalable, innovative & custom-built solutions, designed for real-world business challenges.
+          - generic [ref=e706]:
+            - text: Custom Design & Development
+            - progressbar "Custom Design & Development" [ref=e707]:
+              - generic [ref=e709]: 95%
+          - generic [ref=e710]:
+            - text: Client Satisfaction & Retention
+            - progressbar "Client Satisfaction & Retention" [ref=e711]:
+              - generic [ref=e713]: 99%
+        - img "AI-Powered-Development-Solution-Hywiz-Technologies" [ref=e716]
+      - generic [ref=e723]:
+        - img "Marketing-Solutions-Hywiz-Technologies" [ref=e726]
+        - generic [ref=e727]:
+          - paragraph [ref=e729]: Grow, Engage, Dominate
+          - heading "Skyrocket Your Business with Leading Marketing Solutions" [level=2] [ref=e731]
+          - paragraph [ref=e733]: Amplify your brand’s online presence with high-impact digital marketing solutions designed for performance, growth, visibility, and conversions. From precision-targeted advertising and advanced SEO strategies to conversion-driven content and search engine dominance, our industry experts deliver scalable solutions that boost traffic, drive engagement, and maximize ROI—keeping your business ahead of the competition.
+          - generic [ref=e734]:
+            - generic [ref=e735]:
+              - generic [ref=e736]:
+                - img [ref=e740]
+                - heading "Success Unlocked" [level=3] [ref=e743]
+              - paragraph [ref=e745]: Empowering businesses with proven digital marketing strategies and performance-driven success.
+            - generic [ref=e746]:
+              - generic [ref=e747]:
+                - img [ref=e751]
+                - heading "Marketing Excellence" [level=3] [ref=e754]
+              - paragraph [ref=e756]: Delivering top-notch campaigns that boost visibility, maximize ROI, ROAS, and fuel long-term growth.
+          - generic [ref=e757]:
+            - text: ROI, ROAS & CRO Optimization
+            - progressbar "ROI, ROAS & CRO Optimization" [ref=e758]:
+              - generic [ref=e760]: 95%
+          - generic [ref=e761]:
+            - text: Strategic Planning & Execution
+            - progressbar "Strategic Planning & Execution" [ref=e762]:
+              - generic [ref=e764]: 99%
+      - generic [ref=e771]:
+        - generic [ref=e772]:
+          - paragraph [ref=e774]: Why Choose Hywiz Technologies?
+          - heading "Why We're Different From Other Companies" [level=2] [ref=e776]
+          - paragraph [ref=e778]: We go beyond execution — aligning with your vision, mission, goals, metrics, and momentum. At Hywiz Technologies, we think, build, and act like stakeholders in your success, not just service vendors.
+        - generic [ref=e782]:
+          - generic [ref=e783]:
+            - img "UI-UX-Designn" [ref=e785]
+            - generic [ref=e786]:
+              - heading "10+ Years of Expertise" [level=3] [ref=e788]
+              - paragraph [ref=e790]: Over a decade of delivering trusted, high-impact cross-industry solutions.
+              - paragraph [ref=e792]: A Decade of Excellence
+          - generic [ref=e793]:
+            - img "Privacy-Policy" [ref=e795]
+            - generic [ref=e796]:
+              - heading "Proven Track Record" [level=3] [ref=e798]
+              - paragraph [ref=e800]: A legacy of consistent, proven success through quality and performance.
+              - paragraph [ref=e802]: High Retention Rate
+          - generic [ref=e803]:
+            - img "Website-Maintenance" [ref=e805]
+            - generic [ref=e806]:
+              - heading "Full-Spectrum Expertise" [level=3] [ref=e808]
+              - paragraph [ref=e810]: Delivering complete solutions across tech, marketing, strategy and business.
+              - paragraph [ref=e812]: One Team, All Solutions
+          - generic [ref=e815]:
+            - heading "Industry Recognition" [level=3] [ref=e817]
+            - paragraph [ref=e819]: Recognized across industries for excellence, reliability and quality work.
+            - paragraph [ref=e821]: Awarded for Quality Work
+          - generic [ref=e822]:
+            - img "Icon-H" [ref=e824]
+            - generic [ref=e825]:
+              - heading "Lightning Fast Results" [level=3] [ref=e827]
+              - paragraph [ref=e829]: We prioritize delivery without delay, driving faster growth & competitive advantage.
+              - paragraph [ref=e831]: Quickest in the Industry
+          - generic [ref=e832]:
+            - img "Time-Icon-H" [ref=e834]
+            - generic [ref=e835]:
+              - heading "24/7/365 Support" [level=3] [ref=e837]
+              - paragraph [ref=e839]: Get expert help round-the-clock anytime, anywhere, without delay.
+              - paragraph [ref=e841]: Always Here for You
+          - generic [ref=e842]:
+            - img "Social-Media-Management" [ref=e844]
+            - generic [ref=e845]:
+              - heading "High-Caliber Team" [level=3] [ref=e847]
+              - paragraph [ref=e849]: A powerhouse of top talent driving innovation, precision, and results.
+              - paragraph [ref=e851]: Experts You Can Trust
+          - generic [ref=e852]:
+            - img "Leads-Generation" [ref=e854]
+            - generic [ref=e855]:
+              - heading "Data-Driven Approach" [level=3] [ref=e857]
+              - paragraph [ref=e859]: We make smarter decisions through data, insights, and measurable impact.
+              - paragraph [ref=e861]: Powered by Intelligence
+          - generic [ref=e862]:
+            - img "King-Icon" [ref=e864]
+            - generic [ref=e865]:
+              - heading "Global Client Trust" [level=3] [ref=e867]
+              - paragraph [ref=e869]: Trusted by clients worldwide for consistent results, quality, and service.
+              - paragraph [ref=e871]: Trusted Worldwide
+      - generic [ref=e880]:
+        - heading "Think Big. Build Smarter. Scale With Hywiz Technologies." [level=2] [ref=e882]
+        - paragraph [ref=e884]: Unlock next-level growth with Hywiz Technologies — a global leader in custom software, web and mobile app development, and full-suite digital marketing. We align tech, creativity, and ROI to help you scale smarter.
+        - link "Get Started" [ref=e886] [cursor=pointer]:
+          - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU0MzAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+          - generic [ref=e887]:
+            - img [ref=e889]
+            - generic [ref=e891]: Get Started
+  - contentinfo [ref=e892]:
+    - generic [ref=e895]:
+      - generic [ref=e896]:
+        - generic [ref=e897]:
+          - link "Logo-Hywiz-Technologies-White" [ref=e899] [cursor=pointer]:
+            - /url: https://hywiz.com
+            - img "Logo-Hywiz-Technologies-White" [ref=e900]
+          - paragraph [ref=e902]: Accelerate your business success globally with Hywiz Technologies – your trusted partner for innovative digital solutions & unrivaled results.
+          - 'link "House #11, New Model Town – Phase 3, Burewala" [ref=e903] [cursor=pointer]':
+            - /url: https://goo.gl/maps/RqP1BT3qSiuT3WwF8
+            - img [ref=e907]
+            - paragraph [ref=e910]: "House #11, New Model Town – Phase 3, Burewala"
+          - link "+92 314 3110259" [ref=e911] [cursor=pointer]:
+            - /url: tel:+923143110259
+            - img [ref=e915]
+            - paragraph [ref=e918]: +92 314 3110259
+          - link "hello@hywiz.com" [ref=e919] [cursor=pointer]:
+            - /url: mailto:hello@hywiz.com
+            - img [ref=e923]
+            - paragraph [ref=e926]: hello@hywiz.com
+          - link "Live WhatsApp Chat" [ref=e927] [cursor=pointer]:
+            - /url: https://wa.me/923143110259
+            - img [ref=e931]
+            - paragraph [ref=e934]: Live WhatsApp Chat
+          - list [ref=e936]:
+            - listitem [ref=e937]:
+              - link "Facebook-f" [ref=e938] [cursor=pointer]:
+                - /url: https://www.facebook.com/HywizTechnologies/
+                - generic [ref=e939]: Facebook-f
+                - img [ref=e940]
+            - listitem [ref=e942]:
+              - link "Linkedin-in" [ref=e943] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/hywiz-technologies/
+                - generic [ref=e944]: Linkedin-in
+                - img [ref=e945]
+            - listitem [ref=e947]:
+              - link "Instagram" [ref=e948] [cursor=pointer]:
+                - /url: https://www.instagram.com/hywiztechnologies/
+                - generic [ref=e949]: Instagram
+                - img [ref=e950]
+            - listitem [ref=e952]:
+              - link "X-twitter" [ref=e953] [cursor=pointer]:
+                - /url: https://x.com/hywiztechnology
+                - generic [ref=e954]: X-twitter
+                - img [ref=e955]
+            - listitem [ref=e957]:
+              - link "Pinterest-p" [ref=e958] [cursor=pointer]:
+                - /url: https://www.pinterest.com/hywiztechnologies/
+                - generic [ref=e959]: Pinterest-p
+                - img [ref=e960]
+            - listitem [ref=e962]:
+              - link "Youtube" [ref=e963] [cursor=pointer]:
+                - /url: https://youtube.com/@hywiztechnologies
+                - generic [ref=e964]: Youtube
+                - img [ref=e965]
+            - listitem [ref=e967]:
+              - link "Behance" [ref=e968] [cursor=pointer]:
+                - /url: https://www.behance.net/hywiz
+                - generic [ref=e969]: Behance
+                - img [ref=e970]
+        - generic [ref=e972]:
+          - heading "Company" [level=2] [ref=e974]
+          - navigation "Company Menu Hywiz" [ref=e976]:
+            - list [ref=e977]:
+              - listitem [ref=e978]:
+                - link "Home" [ref=e979] [cursor=pointer]:
+                  - /url: https://hywiz.com/
+              - listitem [ref=e980]:
+                - link "Services" [ref=e981] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/
+              - listitem [ref=e982]:
+                - link "Portfolio" [ref=e983] [cursor=pointer]:
+                  - /url: https://hywiz.com/our-portfolio/
+              - listitem [ref=e984]:
+                - link "About Us" [ref=e985] [cursor=pointer]:
+                  - /url: https://hywiz.com/about-us/
+              - listitem [ref=e986]:
+                - link "Careers" [ref=e987] [cursor=pointer]:
+                  - /url: https://hywiz.com/careers/
+              - listitem [ref=e988]:
+                - link "Contact Us" [ref=e989] [cursor=pointer]:
+                  - /url: https://hywiz.com/contact-us/
+              - listitem [ref=e990]:
+                - link "Privacy Policy" [ref=e991] [cursor=pointer]:
+                  - /url: https://hywiz.com/privacy-policy/
+              - listitem [ref=e992]:
+                - link "Terms & Conditions" [ref=e993] [cursor=pointer]:
+                  - /url: https://hywiz.com/terms-and-conditions/
+        - generic [ref=e994]:
+          - heading "Services" [level=2] [ref=e996]
+          - navigation "Company Menu Hywiz" [ref=e998]:
+            - list [ref=e999]:
+              - listitem [ref=e1000]:
+                - link "AI Automation" [ref=e1001] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/ai-automation/
+              - listitem [ref=e1002]:
+                - link "Software Development" [ref=e1003] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/software-development/
+              - listitem [ref=e1004]:
+                - link "Website Development" [ref=e1005] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/web-development/
+              - listitem [ref=e1006]:
+                - link "Website Maintenance" [ref=e1007] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/website-maintenance/
+              - listitem [ref=e1008]:
+                - link "Domain & Hosting" [ref=e1009] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/domain-hosting/
+              - listitem [ref=e1010]:
+                - link "UI/UX Design" [ref=e1011] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/ui-ux-design/
+              - listitem [ref=e1012]:
+                - link "Graphic Design" [ref=e1013] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/graphic-design/
+              - listitem [ref=e1014]:
+                - link "Video & Animations" [ref=e1015] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/video-animation/
+        - generic [ref=e1016]:
+          - heading "Marketing" [level=2] [ref=e1018]
+          - navigation "Company Menu Hywiz" [ref=e1020]:
+            - list [ref=e1021]:
+              - listitem [ref=e1022]:
+                - link "Google Ads" [ref=e1023] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/google-ads/
+              - listitem [ref=e1024]:
+                - link "Meta Ads" [ref=e1025] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/meta-ads/
+              - listitem [ref=e1026]:
+                - link "TikTok Ads" [ref=e1027] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/tiktok-ads/
+              - listitem [ref=e1028]:
+                - link "YouTube Ads" [ref=e1029] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/youtube-ads/
+              - listitem [ref=e1030]:
+                - link "LinkedIn Marketing" [ref=e1031] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/linkedin-marketing/
+              - listitem [ref=e1032]:
+                - link "Cold Email Marketing" [ref=e1033] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/cold-email-marketing/
+              - listitem [ref=e1034]:
+                - link "Search Engine Optimization" [ref=e1035] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/search-engine-optimization/
+              - listitem [ref=e1036]:
+                - link "Social Media Management" [ref=e1037] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/social-media-management/
+      - generic [ref=e1038]:
+        - paragraph [ref=e1040]:
+          - text: Copyright © 2025
+          - link "Hywiz Technologies" [ref=e1041] [cursor=pointer]:
+            - /url: https://hywiz.com
+          - text: Pvt. Ltd. All Rights Reserved.
+        - generic [ref=e1042]:
+          - img "Payments_Methods_Visa" [ref=e1044]
+          - img "Payments_Methods_MasterCard_Logo" [ref=e1046]
+          - img "Payments_Methods_Wise_Logo" [ref=e1048]
+          - img "Payments_Methods_PayPal" [ref=e1050]
+          - img "Payments_Methods_Payoneer" [ref=e1052]
+  - generic [ref=e1053]: tablet
+  - img [ref=e1054]
+  - generic [ref=e1056] [cursor=pointer]:
+    - button "Open chaty" [ref=e1057]:
+      - img [ref=e1059]
+      - generic [ref=e1065]: Open chaty
+    - generic [ref=e1066]: "3"

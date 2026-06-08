@@ -1,0 +1,741 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - link "hello@hywiz.com" [ref=e7] [cursor=pointer]:
+          - /url: mailto:hello@hywiz.com
+          - generic [ref=e8]:
+            - img [ref=e10]
+            - generic [ref=e12]: hello@hywiz.com
+        - link "+92 314 3110259" [ref=e14] [cursor=pointer]:
+          - /url: tel:+923143110259
+          - generic [ref=e15]:
+            - img [ref=e17]
+            - generic [ref=e19]: +92 314 3110259
+      - list [ref=e22]:
+        - listitem [ref=e23]:
+          - link "Facebook-f" [ref=e24] [cursor=pointer]:
+            - /url: https://www.facebook.com/HywizTechnologies/
+            - generic [ref=e25]: Facebook-f
+            - img [ref=e26]
+        - listitem [ref=e28]:
+          - link "Linkedin-in" [ref=e29] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/hywiz-technologies/
+            - generic [ref=e30]: Linkedin-in
+            - img [ref=e31]
+        - listitem [ref=e33]:
+          - link "Instagram" [ref=e34] [cursor=pointer]:
+            - /url: https://www.instagram.com/hywiztechnologies/
+            - generic [ref=e35]: Instagram
+            - img [ref=e36]
+        - listitem [ref=e38]:
+          - link "X-twitter" [ref=e39] [cursor=pointer]:
+            - /url: https://x.com/hywiztechnology
+            - generic [ref=e40]: X-twitter
+            - img [ref=e41]
+        - listitem [ref=e43]:
+          - link "Pinterest-p" [ref=e44] [cursor=pointer]:
+            - /url: https://www.pinterest.com/hywiztechnologies/
+            - generic [ref=e45]: Pinterest-p
+            - img [ref=e46]
+        - listitem [ref=e48]:
+          - link "Youtube" [ref=e49] [cursor=pointer]:
+            - /url: https://youtube.com/@hywiztechnologies
+            - generic [ref=e50]: Youtube
+            - img [ref=e51]
+        - listitem [ref=e53]:
+          - link "Behance" [ref=e54] [cursor=pointer]:
+            - /url: https://www.behance.net/hywiz
+            - generic [ref=e55]: Behance
+            - img [ref=e56]
+    - generic [ref=e60]:
+      - link "Hywiz-Technologies-Logo" [ref=e62] [cursor=pointer]:
+        - /url: https://hywiz.com
+        - img "Hywiz-Technologies-Logo" [ref=e63]
+      - navigation "Menu" [ref=e65]:
+        - button "Menu Toggle" [ref=e66]:
+          - img [ref=e68]
+          - img [ref=e71]
+  - main [ref=e73]:
+    - generic [ref=e75]:
+      - generic [ref=e79]:
+        - img "Star-Element-H" [ref=e81]
+        - img "Star-Element-H" [ref=e83]
+        - heading "Hywiz Technologies Portfolio Showcasing Innovative and Creative Solutions" [level=1] [ref=e85]
+        - paragraph [ref=e87]: Showcasing expertise across AI automation, web design, UI/UX design, graphic design, and digital marketing, Hywiz Technologies empowers brands with intelligent systems, scalable strategies, and creative innovation that drives market leadership.
+      - generic [ref=e88]:
+        - generic [ref=e90]:
+          - paragraph [ref=e92]: Web Design Portfolio
+          - heading "Featured Web Design Projects by Hywiz Technologies" [level=2] [ref=e94]
+          - paragraph [ref=e96]: Whether it’s UI-focused websites built with Webflow, Framer, Shopify, or WordPress, or custom-designed interfaces developed using modern stacks like MERN and Next.js, Hywiz Technologies transforms ideas into purposeful, visually engaging, and conversion-ready web experiences.
+        - generic [ref=e100]:
+          - region "Image Carousel" [ref=e102]:
+            - generic [ref=e103]:
+              - group [ref=e104]:
+                - figure [ref=e105]:
+                  - img [ref=e106]
+              - group [ref=e107]:
+                - figure [ref=e108]:
+                  - img [ref=e109]
+              - group [ref=e110]:
+                - figure [ref=e111]:
+                  - img [ref=e112]
+              - group "2 / 9" [ref=e113]:
+                - figure [ref=e114]:
+                  - img "Hywiz-Web-Design-Portfolio-Screen-16" [ref=e115]
+              - group "3 / 9" [ref=e116]:
+                - figure [ref=e117]:
+                  - img "Hywiz-Web-Design-Portfolio-Screen-7" [ref=e118]
+              - group [ref=e119]:
+                - figure [ref=e120]:
+                  - img [ref=e121]
+              - group [ref=e122]:
+                - figure [ref=e123]:
+                  - img [ref=e124]
+              - group [ref=e125]:
+                - figure [ref=e126]:
+                  - img [ref=e127]
+              - group [ref=e128]:
+                - figure [ref=e129]:
+                  - img [ref=e130]
+              - group [ref=e131]:
+                - figure [ref=e132]:
+                  - img [ref=e133]
+              - group [ref=e134]:
+                - figure [ref=e135]:
+                  - img [ref=e136]
+              - group [ref=e137]:
+                - figure [ref=e138]:
+                  - img [ref=e139]
+              - group [ref=e140]:
+                - figure [ref=e141]:
+                  - img [ref=e142]
+          - generic [ref=e144]:
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e145] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-8.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e146] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-4.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e147] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-28.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e148] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-6.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e149] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-9.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e150] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-14.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e151] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-21.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+            - link "Web-Design-Portfolio-Hywiz-Technologies" [ref=e152] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Web-Design-Hywiz-Technologies-Portfolio-2.jpg
+              - img "Web-Design-Portfolio-Hywiz-Technologies"
+          - link "Full Web Design Portfolio" [ref=e154] [cursor=pointer]:
+            - /url: https://hywiz.com/our-portfolio/web-design-portfolio/
+            - generic [ref=e155]:
+              - img [ref=e157]
+              - generic [ref=e159]: Full Web Design Portfolio
+      - generic [ref=e161]:
+        - generic [ref=e162]:
+          - paragraph [ref=e164]: Google Ads Portfolio
+          - heading "Google Ads Success Stories That Speak for Themselves" [level=2] [ref=e166]
+          - paragraph [ref=e168]: At Hywiz Technologies, our Google Ads campaigns are designed to do more than drive clicks. Trusted by businesses worldwide, we create strategies that consistently generate qualified leads, boost conversions, and maximize ROI with measurable success.
+        - generic [ref=e172]:
+          - generic [ref=e173]:
+            - link "Google-Ads-Portfolio-Hywiz-Technologies-MegaSS " [ref=e175] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-MegaSS.png
+              - img "Google-Ads-Portfolio-Hywiz-Technologies-MegaSS" [ref=e176]
+              - text: 
+            - generic [ref=e177]:
+              - heading "3.51K Conversions | Rs 5.18M Ad Spend" [level=3] [ref=e179]
+              - paragraph [ref=e181]: Achieved [3.51K clicks] and [1.45K conversions], driving exceptional ROI through strategic and optimized ad spend.
+          - generic [ref=e182]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e184] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-10.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e185]
+              - text: 
+            - generic [ref=e186]:
+              - heading "1.4K Conversions | Rs 4.88M Ad Spend" [level=3] [ref=e188]
+              - paragraph [ref=e190]: Generated [3.41K clicks], [1.4K conversions], ensuring [Rs4.88M] in marketing cost efficiency.
+          - generic [ref=e191]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e193] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-36.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e194]
+              - text: 
+            - generic [ref=e195]:
+              - heading "1.02K Conversions | USD 8.83K Ad Spend" [level=3] [ref=e197]
+              - paragraph [ref=e199]: Delivered [2.4K clicks] and [1.02K conversions], maximizing cost efficiency across channels.
+          - generic [ref=e200]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e202] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-1.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e203]
+              - text: 
+            - generic [ref=e204]:
+              - heading "635 Conversions | Rs 3.49M Ad Spend" [level=3] [ref=e206]
+              - paragraph [ref=e208]: Secured [1.24K clicks] and [635 conversions], showcasing consistent efficiency and strong outcomes.
+          - generic [ref=e209]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e211] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-35.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e212]
+              - text: 
+            - generic [ref=e213]:
+              - heading "165 Conversions | USD 2.45K Ad Spend" [level=3] [ref=e215]
+              - paragraph [ref=e217]: Achieved [349 clicks] and [165 conversions], strengthening brand visibility with optimized ROI.
+          - generic [ref=e218]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e220] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-12.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e221]
+              - text: 
+            - generic [ref=e222]:
+              - heading "726 Conversions | Dh 43.2K Ad Spend" [level=3] [ref=e224]
+              - paragraph [ref=e226]: Generated high-quality traffic with [2k clicks], converting [726 leads] at optimized acquisition cost.
+          - generic [ref=e227]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e229] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-8.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e230]
+              - text: 
+            - generic [ref=e231]:
+              - heading "933 Conversions | Rs 2.57M Ad Spend" [level=3] [ref=e233]
+              - paragraph [ref=e235]: Reached targeted audiences with [2.29k clicks], driving qualified [933 conversions] at low CPC efficiency.
+          - generic [ref=e236]:
+            - link "Google-Ads-Portfolio-Hywiz " [ref=e238] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Google-Ads-Portfolio-Hywiz-Technologies-MegaSS-2.png
+              - img "Google-Ads-Portfolio-Hywiz" [ref=e239]
+              - text: 
+            - generic [ref=e240]:
+              - heading "680 Conversions | USD 12.5K Ad Spend" [level=3] [ref=e242]
+              - paragraph [ref=e244]: Achieved [1.4K clicks] and [680 conversions], delivering exceptional ROI through precision targeting and optimized ad spend.
+        - link "Full Google Ads Portfolio" [ref=e246] [cursor=pointer]:
+          - /url: /our-portfolio/digital-marketing-portfolio/#Google-Ads-Portfolio
+          - generic [ref=e247]:
+            - img [ref=e249]
+            - generic [ref=e251]: Full Google Ads Portfolio
+      - generic [ref=e260]:
+        - link "Google Partner Badge Hywiz" [ref=e263] [cursor=pointer]:
+          - /url: https://www.google.com/partners/agency?id=5844453902
+          - img "Google-Partner-Badge-Hywiz-Technologies" [ref=e264]
+        - heading "Hywiz Technologies Is Now Officially Google Partner ..." [level=2] [ref=e267]:
+          - text: Hywiz Technologies Is Now Officially
+          - generic [ref=e268]: Google Partner
+          - text: ...
+      - generic [ref=e270]:
+        - generic [ref=e271]:
+          - paragraph [ref=e273]: AI-Powered Portfolio
+          - heading "AI Automation Case Studies Driving Smarter Workflows" [level=2] [ref=e275]
+          - paragraph [ref=e277]: Hywiz Technologies showcases AI automation case studies where intelligent agents, chatbots, voice AI, custom agents, and workflow automations run 24/7, delivering smarter workflows, seamless efficiency, and business value that lasts beyond the clock.
+        - generic [ref=e281]:
+          - generic [ref=e282]:
+            - generic [ref=e283]:
+              - img "SDR-Agent-SS--AI-Portfolio" [ref=e284]
+              - text: 
+            - generic [ref=e285]:
+              - heading "SDR Agent Powering Smarter Outreach and Qualified Leads" [level=3] [ref=e287]
+              - paragraph [ref=e289]: AI-powered prospecting with hyper-personalized outreach that actually converts.
+          - generic [ref=e290]:
+            - generic [ref=e291]:
+              - img "Competitor-Market-Research-Agent-SS--AI-Portfolio" [ref=e292]
+              - text: 
+            - generic [ref=e293]:
+              - heading "Competitive Gap Analyzer Driving 3x Faster Market Leadership" [level=3] [ref=e295]
+              - paragraph [ref=e297]: Transforming competitor blind spots into strategic market opportunities.
+          - generic [ref=e298]:
+            - generic [ref=e299]:
+              - img "Customer-Support-Agent-SS--AI-Portfolio" [ref=e300]
+              - text: 
+            - generic [ref=e301]:
+              - heading "AI Customer Support Agent Driving 24/7 Client Satisfaction" [level=3] [ref=e303]
+              - paragraph [ref=e305]: Providing flawless brand-consistent support around the clock while you rest.
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - img "Product-Photography-Agent-SS--AI-Portfolio" [ref=e308]
+              - text: 
+            - generic [ref=e309]:
+              - heading "Studio-Quality Product Visuals Delivered 10x Faster With AI" [level=3] [ref=e311]
+              - paragraph [ref=e313]: Transforming raw product photos into studio-quality brand visuals.
+          - generic [ref=e314]:
+            - generic [ref=e315]:
+              - img "Twitter-Bot-Agent-SS--AI-Portfolio" [ref=e316]
+              - text: 
+            - generic [ref=e317]:
+              - heading "Automated Twitter Bot Delivering Authentic 24/7 Content" [level=3] [ref=e319]
+              - paragraph [ref=e321]: Scaling authentic social engagement with consistent, trend-driven posts.
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - img "Youtube-Video-to-Tiktok-Clips-Agent-SS--AI-Portfolio (2)" [ref=e324]
+              - text: 
+            - generic [ref=e325]:
+              - heading "Turning Long-Form Videos Into Viral-Ready Clips at Scale" [level=3] [ref=e327]
+              - paragraph [ref=e329]: Turning long-form content into viral-ready short clips at scale.
+        - link "Full AI Automation Portfolio" [ref=e331] [cursor=pointer]:
+          - /url: https://hywiz.com/our-portfolio/ai-automation-portfolio/
+          - generic [ref=e332]:
+            - img [ref=e334]
+            - generic [ref=e336]: Full AI Automation Portfolio
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - paragraph [ref=e341]: Dominating Search Results
+          - heading "Proven SEO Success by Hywiz Technologies" [level=2] [ref=e343]
+          - paragraph [ref=e345]: Hywiz Technologies specializes in SEO strategies that skyrocket brands to the top of SERPs and convert visibility into real business success. With a proven track record of boosting organic traffic, enhancing credibility, and driving sustainable ROI, our results speak with authority.
+        - generic [ref=e349]:
+          - generic [ref=e350]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e352] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-2.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e353]
+              - text: 
+            - generic [ref=e354]:
+              - heading "26.9K Clicks | 520K Impressions" [level=3] [ref=e356]
+              - paragraph [ref=e358]: Dominated top search positions, generating [520K impressions] and [26.9K clicks] while delivering exceptional ROI.
+          - generic [ref=e359]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e361] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-One.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e362]
+              - text: 
+            - generic [ref=e363]:
+              - heading "21.2K Clicks | 586K Impressions" [level=3] [ref=e365]
+              - paragraph [ref=e367]: Achieved [586K impressions] and [21.2K clicks], driving significant visibility through SEO strategies.
+          - generic [ref=e368]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e370] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-3.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e371]
+              - text: 
+            - generic [ref=e372]:
+              - heading "2.46K Clicks | 132K Impressions" [level=3] [ref=e374]
+              - paragraph [ref=e376]: Improved keyword rankings, generating [2.46K clicks] and [1.9% CTR] across targeted search queries.
+          - generic [ref=e377]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e379] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-4.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e380]
+              - text: 
+            - generic [ref=e381]:
+              - heading "7.9K Clicks | 183K Impressions" [level=3] [ref=e383]
+              - paragraph [ref=e385]: Achieved consistent improvements with [7.9K clicks], boosting site authority and engagement.
+          - generic [ref=e386]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e388] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-5.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e389]
+              - text: 
+            - generic [ref=e390]:
+              - heading "14K Clicks | 245K Impressions" [level=3] [ref=e392]
+              - paragraph [ref=e394]: Leveraged analytics to secure [245K impressions] and [14K clicks], improving overall search performance.
+          - generic [ref=e395]:
+            - link "SEO-Portfolio-Hywiz-SS " [ref=e397] [cursor=pointer]:
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/SEO-Portfolio-Hywiz-SS-6.png
+              - img "SEO-Portfolio-Hywiz-SS" [ref=e398]
+              - text: 
+            - generic [ref=e399]:
+              - heading "8.19K Clicks | 185K Impressions" [level=3] [ref=e401]
+              - paragraph [ref=e403]: Increased search traffic with [185K impressions], achieving measurable ranking improvements.
+        - link "View Full SEO Portfolio" [ref=e405] [cursor=pointer]:
+          - /url: /our-portfolio/digital-marketing-portfolio/#SEO-Portfolio
+          - generic [ref=e406]:
+            - img [ref=e408]
+            - generic [ref=e410]: View Full SEO Portfolio
+      - generic [ref=e411]:
+        - generic [ref=e413]:
+          - paragraph [ref=e415]: Design Portfolio Hywiz
+          - heading "Featured Design Projects by Hywiz Technologies" [level=2] [ref=e417]
+          - paragraph [ref=e419]: Whether it’s logos, business cards, social media creatives, or user-centered UI/UX designs crafted in Figma and Adobe XD, Hywiz Technologies turns ideas into cohesive, visually compelling, and experience-driven design solutions.
+        - generic [ref=e425]:
+          - generic "Gallery filter" [ref=e426]:
+            - button "Logo Design" [ref=e427] [cursor=pointer]
+            - button "UI/UX Design" [ref=e428] [cursor=pointer]
+            - button "Social Media Post Design" [ref=e429] [cursor=pointer]
+            - button "Business Card Design" [ref=e430] [cursor=pointer]
+          - generic [ref=e431]:
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-10.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-24.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-19.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-16.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-18.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-17.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-20.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-47.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-21.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-35.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-3.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-45.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-9.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-6.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-51.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-11.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-23.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-37.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-52.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "Logo-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Logo-Design-Portfolio-Hywiz-12.jpg
+              - img "Logo-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H7.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H14.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H9.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H15.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H6.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H4.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H1.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H11.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H3.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H12.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H5.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H2.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H8.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H16.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H10.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "UI-UX-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/UI-UX-Design-Portfolio-Hywiz-H13.jpg
+              - img "UI-UX-Design-Portfolio-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_16.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_21.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_27.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_1.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_3.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_4.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_5.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_6.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_7.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_28.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_12.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_13.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_14.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_20.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_22.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_23.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_24.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_26.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_30.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Social-Media-Post-Design-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Hywiz_Portfolio_Poster_Design_31.jpg
+              - img "Social-Media-Post-Design-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-1.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-2.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-3.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-4.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-5.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-6.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-7.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-8.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-9.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-10.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-11.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-12.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-13.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-14.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-15.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+            - link "Business-Card-Design-Portfolio-Hywiz":
+              - /url: https://hywiz.com/wp-content/uploads/2025/08/Business-Card-Design-Portfolio-Hywiz-16.jpg
+              - img "Business-Card-Design-Portfolio-Hywiz"
+        - link "View Full Design Portfolio" [ref=e433] [cursor=pointer]:
+          - /url: https://hywiz.com/our-portfolio/graphic-design-portfolio/
+          - generic [ref=e434]:
+            - img [ref=e436]
+            - generic [ref=e438]: View Full Design Portfolio
+      - generic [ref=e442]:
+        - heading "Inspired by Our Work? Partner With Hywiz Technologies to Build Success Beyond Limits" [level=2] [ref=e444]
+        - paragraph [ref=e446]: From automation to design, development and digital marketing campaigns, Hywiz Technologies builds solutions that work smarter, scale faster, and set new benchmarks for brand performance.
+        - link "Get Started" [ref=e448] [cursor=pointer]:
+          - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjU0MzAiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D"
+          - generic [ref=e449]:
+            - img [ref=e451]
+            - generic [ref=e453]: Get Started
+  - contentinfo [ref=e454]:
+    - generic [ref=e457]:
+      - generic [ref=e458]:
+        - generic [ref=e459]:
+          - link "Logo-Hywiz-Technologies-White" [ref=e461] [cursor=pointer]:
+            - /url: https://hywiz.com
+            - img "Logo-Hywiz-Technologies-White" [ref=e462]
+          - paragraph [ref=e464]: Accelerate your business success globally with Hywiz Technologies – your trusted partner for innovative digital solutions & unrivaled results.
+          - 'link "House #11, New Model Town – Phase 3, Burewala" [ref=e465] [cursor=pointer]':
+            - /url: https://goo.gl/maps/RqP1BT3qSiuT3WwF8
+            - img [ref=e469]
+            - paragraph [ref=e472]: "House #11, New Model Town – Phase 3, Burewala"
+          - link "+92 314 3110259" [ref=e473] [cursor=pointer]:
+            - /url: tel:+923143110259
+            - img [ref=e477]
+            - paragraph [ref=e480]: +92 314 3110259
+          - link "hello@hywiz.com" [ref=e481] [cursor=pointer]:
+            - /url: mailto:hello@hywiz.com
+            - img [ref=e485]
+            - paragraph [ref=e488]: hello@hywiz.com
+          - link "Live WhatsApp Chat" [ref=e489] [cursor=pointer]:
+            - /url: https://wa.me/923143110259
+            - img [ref=e493]
+            - paragraph [ref=e496]: Live WhatsApp Chat
+          - list [ref=e498]:
+            - listitem [ref=e499]:
+              - link "Facebook-f" [ref=e500] [cursor=pointer]:
+                - /url: https://www.facebook.com/HywizTechnologies/
+                - generic [ref=e501]: Facebook-f
+                - img [ref=e502]
+            - listitem [ref=e504]:
+              - link "Linkedin-in" [ref=e505] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/hywiz-technologies/
+                - generic [ref=e506]: Linkedin-in
+                - img [ref=e507]
+            - listitem [ref=e509]:
+              - link "Instagram" [ref=e510] [cursor=pointer]:
+                - /url: https://www.instagram.com/hywiztechnologies/
+                - generic [ref=e511]: Instagram
+                - img [ref=e512]
+            - listitem [ref=e514]:
+              - link "X-twitter" [ref=e515] [cursor=pointer]:
+                - /url: https://x.com/hywiztechnology
+                - generic [ref=e516]: X-twitter
+                - img [ref=e517]
+            - listitem [ref=e519]:
+              - link "Pinterest-p" [ref=e520] [cursor=pointer]:
+                - /url: https://www.pinterest.com/hywiztechnologies/
+                - generic [ref=e521]: Pinterest-p
+                - img [ref=e522]
+            - listitem [ref=e524]:
+              - link "Youtube" [ref=e525] [cursor=pointer]:
+                - /url: https://youtube.com/@hywiztechnologies
+                - generic [ref=e526]: Youtube
+                - img [ref=e527]
+            - listitem [ref=e529]:
+              - link "Behance" [ref=e530] [cursor=pointer]:
+                - /url: https://www.behance.net/hywiz
+                - generic [ref=e531]: Behance
+                - img [ref=e532]
+        - generic [ref=e534]:
+          - heading "Company" [level=2] [ref=e536]
+          - navigation "Company Menu Hywiz" [ref=e538]:
+            - list [ref=e539]:
+              - listitem [ref=e540]:
+                - link "Home" [ref=e541] [cursor=pointer]:
+                  - /url: https://hywiz.com/
+              - listitem [ref=e542]:
+                - link "Services" [ref=e543] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/
+              - listitem [ref=e544]:
+                - link "Portfolio" [ref=e545] [cursor=pointer]:
+                  - /url: https://hywiz.com/our-portfolio/
+              - listitem [ref=e546]:
+                - link "About Us" [ref=e547] [cursor=pointer]:
+                  - /url: https://hywiz.com/about-us/
+              - listitem [ref=e548]:
+                - link "Careers" [ref=e549] [cursor=pointer]:
+                  - /url: https://hywiz.com/careers/
+              - listitem [ref=e550]:
+                - link "Contact Us" [ref=e551] [cursor=pointer]:
+                  - /url: https://hywiz.com/contact-us/
+              - listitem [ref=e552]:
+                - link "Privacy Policy" [ref=e553] [cursor=pointer]:
+                  - /url: https://hywiz.com/privacy-policy/
+              - listitem [ref=e554]:
+                - link "Terms & Conditions" [ref=e555] [cursor=pointer]:
+                  - /url: https://hywiz.com/terms-and-conditions/
+        - generic [ref=e556]:
+          - heading "Services" [level=2] [ref=e558]
+          - navigation "Company Menu Hywiz" [ref=e560]:
+            - list [ref=e561]:
+              - listitem [ref=e562]:
+                - link "AI Automation" [ref=e563] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/ai-automation/
+              - listitem [ref=e564]:
+                - link "Software Development" [ref=e565] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/software-development/
+              - listitem [ref=e566]:
+                - link "Website Development" [ref=e567] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/web-development/
+              - listitem [ref=e568]:
+                - link "Website Maintenance" [ref=e569] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/website-maintenance/
+              - listitem [ref=e570]:
+                - link "Domain & Hosting" [ref=e571] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/domain-hosting/
+              - listitem [ref=e572]:
+                - link "UI/UX Design" [ref=e573] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/ui-ux-design/
+              - listitem [ref=e574]:
+                - link "Graphic Design" [ref=e575] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/graphic-design/
+              - listitem [ref=e576]:
+                - link "Video & Animations" [ref=e577] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/video-animation/
+        - generic [ref=e578]:
+          - heading "Marketing" [level=2] [ref=e580]
+          - navigation "Company Menu Hywiz" [ref=e582]:
+            - list [ref=e583]:
+              - listitem [ref=e584]:
+                - link "Google Ads" [ref=e585] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/google-ads/
+              - listitem [ref=e586]:
+                - link "Meta Ads" [ref=e587] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/meta-ads/
+              - listitem [ref=e588]:
+                - link "TikTok Ads" [ref=e589] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/tiktok-ads/
+              - listitem [ref=e590]:
+                - link "YouTube Ads" [ref=e591] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/youtube-ads/
+              - listitem [ref=e592]:
+                - link "LinkedIn Marketing" [ref=e593] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/linkedin-marketing/
+              - listitem [ref=e594]:
+                - link "Cold Email Marketing" [ref=e595] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/cold-email-marketing/
+              - listitem [ref=e596]:
+                - link "Search Engine Optimization" [ref=e597] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/search-engine-optimization/
+              - listitem [ref=e598]:
+                - link "Social Media Management" [ref=e599] [cursor=pointer]:
+                  - /url: https://hywiz.com/services/social-media-management/
+      - generic [ref=e600]:
+        - paragraph [ref=e602]:
+          - text: Copyright © 2025
+          - link "Hywiz Technologies" [ref=e603] [cursor=pointer]:
+            - /url: https://hywiz.com
+          - text: Pvt. Ltd. All Rights Reserved.
+        - generic [ref=e604]:
+          - img "Payments_Methods_Visa" [ref=e606]
+          - img "Payments_Methods_MasterCard_Logo" [ref=e608]
+          - img "Payments_Methods_Wise_Logo" [ref=e610]
+          - img "Payments_Methods_PayPal" [ref=e612]
+          - img "Payments_Methods_Payoneer" [ref=e614]
+  - generic [ref=e615]: tablet
+  - img [ref=e616]
+  - generic [ref=e618] [cursor=pointer]:
+    - button "Open chaty" [ref=e619]:
+      - img [ref=e621]
+      - generic [ref=e627]: Open chaty
+    - generic [ref=e628]: "3"
