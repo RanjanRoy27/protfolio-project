@@ -7,20 +7,20 @@
   <meta name="description" content="I build AI automation systems for businesses. Workflow automation, RAG pipelines, AI agents. Based in Bangladesh, working globally.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg-primary: #1a1a18;
-      --bg-secondary: #222220;
-      --bg-tertiary: #2a2a27;
-      --text-primary: #f0ede6;
-      --text-secondary: #b8b4aa;
-      --text-muted: #7a7670;
-      --accent-sage: #7a9e7e;
-      --accent-amber: #c9933a;
-      --accent-sage-dim: #4a6e4e;
-      --border: #2e2e2b;
-      --shadow: rgba(0, 0, 0, 0.4);
+      --bg-primary: #f3eee6;
+      --bg-secondary: #fffaf3;
+      --bg-tertiary: #efe6d8;
+      --text-primary: #2e291f;
+      --text-secondary: #5d5449;
+      --text-muted: #7c7265;
+      --accent-sage: #7a8f72;
+      --accent-amber: #b57c39;
+      --accent-sage-dim: #d2dfcf;
+      --border: #e3dacd;
+      --shadow: rgba(61, 49, 32, 0.12);
       --max-width: 1100px;
       --nav-height: 72px;
     }
@@ -36,11 +36,11 @@
     body {
       margin: 0;
       background:
-        radial-gradient(circle at 80% 8%, rgba(122, 158, 126, 0.16), transparent 34rem),
-        linear-gradient(135deg, rgba(201, 147, 58, 0.04), transparent 30rem),
-        var(--bg-primary);
+        radial-gradient(circle at 85% 6%, rgba(183, 124, 57, 0.12), transparent 30rem),
+        radial-gradient(circle at 12% 14%, rgba(122, 143, 114, 0.14), transparent 24rem),
+        linear-gradient(135deg, #f7f1e8 0%, #f3eee6 45%, #efe6d8 100%);
       color: var(--text-primary);
-      font-family: "DM Sans", sans-serif;
+      font-family: "Cormorant Garamond", Georgia, serif;
       font-size: 16px;
       line-height: 1.6;
     }
@@ -50,12 +50,27 @@
       position: fixed;
       inset: 0;
       pointer-events: none;
-      opacity: 0.08;
+      opacity: 0.12;
       background-image:
-        linear-gradient(rgba(240, 237, 230, 0.08) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(240, 237, 230, 0.08) 1px, transparent 1px);
+        linear-gradient(rgba(46, 41, 31, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(46, 41, 31, 0.08) 1px, transparent 1px);
       background-size: 52px 52px;
       mask-image: linear-gradient(to bottom, black, transparent 75%);
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(circle at 8% 18%, rgba(122, 143, 114, 0.14), transparent 22%),
+        radial-gradient(circle at 88% 24%, rgba(181, 124, 57, 0.10), transparent 18%),
+        linear-gradient(120deg, transparent 0 30%, rgba(122, 143, 114, 0.05) 30% 35%, transparent 35% 65%, rgba(181, 124, 57, 0.05) 65% 70%, transparent 70%);
+      transform: translateY(calc(var(--scroll-shift, 0px) * 0.1));
+      filter: blur(1px);
+      opacity: 0.8;
+      z-index: -1;
     }
 
     a {
@@ -79,7 +94,7 @@
     }
 
     .site-header.scrolled {
-      background: rgba(34, 34, 32, 0.86);
+      background: rgba(255, 250, 243, 0.88);
       border-color: var(--border);
       backdrop-filter: blur(14px);
     }
@@ -93,9 +108,9 @@
     }
 
     .brand {
-      font-family: "Fraunces", serif;
-      font-weight: 300;
-      font-size: 1.25rem;
+      font-family: "Libre Baskerville", Georgia, serif;
+      font-weight: 700;
+      font-size: 1.15rem;
       white-space: nowrap;
     }
 
@@ -169,8 +184,9 @@
     }
 
     .button.primary {
-      background: var(--accent-sage);
-      color: #11110f;
+      background: linear-gradient(135deg, var(--accent-sage), #8faa88);
+      color: #1d201b;
+      box-shadow: 0 8px 18px rgba(122, 143, 114, 0.18);
     }
 
     .button.secondary {
@@ -196,7 +212,7 @@
     h2,
     h3 {
       margin: 0;
-      font-family: "Fraunces", serif;
+      font-family: "Libre Baskerville", Georgia, serif;
       font-weight: 600;
       line-height: 1.05;
       letter-spacing: 0;
@@ -257,7 +273,7 @@
     .hero .subhead {
       max-width: 620px;
       margin-top: 24px;
-      font-family: "Fraunces", serif;
+      font-family: "Cormorant Garamond", Georgia, serif;
       font-size: clamp(1.25rem, 2vw, 1.55rem);
       font-style: italic;
       font-weight: 300;
@@ -312,6 +328,33 @@
       grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 
+    .logo-strip {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 26px;
+    }
+
+    .logo-chip {
+      display: inline-flex;
+      align-items: center;
+      padding: 9px 12px;
+      border: 1px solid rgba(122, 143, 114, 0.22);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.68);
+      color: var(--text-secondary);
+      font-size: 0.92rem;
+      box-shadow: 0 8px 18px rgba(61, 49, 32, 0.08);
+      backdrop-filter: blur(8px);
+    }
+
+    .logo-chip strong {
+      color: var(--text-primary);
+      font-family: "Libre Baskerville", Georgia, serif;
+      font-size: 0.95rem;
+      margin-right: 6px;
+    }
+
     .card {
       min-width: 0;
       border: 1px solid var(--border);
@@ -350,8 +393,8 @@
     .service-number {
       display: block;
       margin-bottom: 24px;
-      color: rgba(201, 147, 58, 0.35);
-      font-family: "Fraunces", serif;
+      color: rgba(181, 124, 57, 0.35);
+      font-family: "Libre Baskerville", Georgia, serif;
       font-size: 3.4rem;
       line-height: 0.9;
     }
@@ -376,7 +419,7 @@
     .outcome {
       margin-top: 24px;
       color: var(--accent-amber);
-      font-family: "Fraunces", serif;
+      font-family: "Libre Baskerville", Georgia, serif;
       font-style: italic;
     }
 
@@ -384,7 +427,7 @@
       padding: 40px;
       border: 1px solid var(--border);
       border-radius: 8px;
-      background: linear-gradient(145deg, var(--bg-secondary), rgba(42, 42, 39, 0.72));
+      background: linear-gradient(145deg, rgba(255, 255, 255, 0.78), rgba(239, 230, 216, 0.98));
     }
 
     .case-points {
@@ -414,7 +457,7 @@
 
     .process-step span {
       color: var(--accent-amber);
-      font-family: "Fraunces", serif;
+      font-family: "Libre Baskerville", Georgia, serif;
       font-size: 1.4rem;
     }
 
@@ -600,7 +643,7 @@
         padding: 18px;
         border: 1px solid var(--border);
         border-radius: 8px;
-        background: rgba(34, 34, 32, 0.98);
+        background: rgba(255, 250, 243, 0.98);
         flex-direction: column;
         align-items: stretch;
       }
@@ -621,7 +664,8 @@
       .case-study,
       .contact-panel,
       .grid.two,
-      .grid.three {
+      .grid.three,
+      .logo-strip {
         grid-template-columns: 1fr;
       }
 
@@ -944,6 +988,7 @@
 
     const updateHeader = () => {
       header.classList.toggle("scrolled", window.scrollY > 24);
+      document.documentElement.style.setProperty("--scroll-shift", `${Math.min(window.scrollY * 0.12, 72)}px`);
     };
 
     navToggle.addEventListener("click", () => {
